@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+    uuid="c4000003-0000-0000-0000-000000000000">
+  <name>ВыгрузкаЗагрузкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка/Загрузка данных</value>
+  </synonym>
+  <comment>XML-выгрузка и загрузка объектов</comment>
+  <forms>Forms/ОсновнаяФорма</forms>
+</mdclass:DataProcessor>

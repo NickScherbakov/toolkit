@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:form="http://g5.1c.ru/v8/dt/form"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <title>
+    <key>ru</key>
+    <value>Сравнение объектов</value>
+  </title>
+  <items xsi:type="form:FormGroup" name="ГруппаОсновная" type="UsualGroup" horizontal="false">
+  </items>
+</form:Form>

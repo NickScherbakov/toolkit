@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - develop
       - copilot/**
 
 permissions:
@@ -24,6 +25,9 @@ jobs:
 
       - name: Compile Python sources
         run: python -m compileall scripts tests
+
+      - name: Validate EDT extension structure
+        run: python tests/edt/validate_structure.py
 
       - name: Validate catalog
         run: python scripts/validate_catalog.py --report build/validation-report.md

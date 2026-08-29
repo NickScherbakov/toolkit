@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+    uuid="e1000001-0000-0000-0000-000000000001">
+  <name>ТулкитПолныйДоступ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Toolkit: Полный доступ</value>
+  </synonym>
+  <comment>Полный доступ ко всем инструментам 1C Developer Toolkit</comment>
+</mdclass:Role>
