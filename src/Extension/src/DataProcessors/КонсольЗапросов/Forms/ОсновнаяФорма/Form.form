@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:form="http://g5.1c.ru/v8/dt/form"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <title>
+    <key>ru</key>
+    <value>Консоль запросов</value>
+  </title>
+  <items xsi:type="form:FormGroup" name="ГруппаОсновная" type="UsualGroup" horizontal="false">
+    <items xsi:type="form:FormGroup" name="ГруппаПанельИнструментов" type="UsualGroup" horizontal="true">
+      <items xsi:type="form:Button" name="КнопкаВыполнить" commandName="Выполнить"/>
+      <items xsi:type="form:Button" name="КнопкаОчистить" commandName="Очистить"/>
+      <items xsi:type="form:Button" name="КнопкаПараметры" commandName="РедактироватьПараметры"/>
+      <items xsi:type="form:Button" name="КнопкаКонструктор" commandName="КонструкторЗапроса"/>
+    </items>
+    <items xsi:type="form:HTMLDocumentField" name="РедакторЗапроса" dataPath="ТекстЗапроса"
+        width="0" height="15" stretch="true"/>
+    <items xsi:type="form:FormGroup" name="ГруппаПараметров" type="UsualGroup" horizontal="false"
+        title="Параметры запроса">
+      <items xsi:type="form:Table" name="ТаблицаПараметров" dataPath="ПараметрыЗапроса">
+        <columns xsi:type="form:TableColumn" name="КолонкаИмя" dataPath="Имя" title="Имя"/>
+        <columns xsi:type="form:TableColumn" name="КолонкаЗначение" dataPath="Значение" title="Значение"/>
+        <columns xsi:type="form:TableColumn" name="КолонкаТип" dataPath="Тип" title="Тип"/>
+      </items>
+    </items>
+    <items xsi:type="form:Pages" name="СтраницыРезультата">
+      <pages xsi:type="form:Page" name="СтраницаТаблица" title="Таблица">
+        <items xsi:type="form:Table" name="ТаблицаРезультата" dataPath="РезультатТаблица"
+            width="0" height="12" stretch="true">
+        </items>
+      </pages>
+      <pages xsi:type="form:Page" name="СтраницаДерево" title="Дерево">
+        <items xsi:type="form:Tree" name="ДеревоРезультата" dataPath="РезультатДерево"
+            width="0" height="12" stretch="true">
+        </items>
+      </pages>
+      <pages xsi:type="form:Page" name="СтраницаТекст" title="Текст запроса">
+        <items xsi:type="form:TextBox" name="ТекстЗапросаПросмотр" dataPath="ТекстЗапросаПросмотр"
+            multiLine="true" width="0" height="12" stretch="true"/>
+      </pages>
+    </items>
+    <items xsi:type="form:Label" name="ЭтикеткаСтатус" dataPath="СтрокаСтатуса"/>
+  </items>
+  <attributes xsi:type="form:FormAttribute" name="ТекстЗапроса" title="Текст запроса" saved="true"
+      type="http://www.w3.org/2001/XMLSchema#string"/>
+  <attributes xsi:type="form:FormAttribute" name="ПараметрыЗапроса" title="Параметры запроса"
+      type="http://g5.1c.ru/v8/dt/platform/core#ValueTable">
+    <columns xsi:type="form:FormAttribute" name="Имя" title="Имя"
+        type="http://www.w3.org/2001/XMLSchema#string"/>
+    <columns xsi:type="form:FormAttribute" name="Значение" title="Значение"/>
+    <columns xsi:type="form:FormAttribute" name="Тип" title="Тип"
+        type="http://www.w3.org/2001/XMLSchema#string"/>
+  </attributes>
+  <attributes xsi:type="form:FormAttribute" name="РезультатТаблица" title="Результат (таблица)"
+      type="http://g5.1c.ru/v8/dt/platform/core#ValueTable"/>
+  <attributes xsi:type="form:FormAttribute" name="РезультатДерево" title="Результат (дерево)"
+      type="http://g5.1c.ru/v8/dt/platform/core#ValueTree"/>
+  <attributes xsi:type="form:FormAttribute" name="ТекстЗапросаПросмотр" title="Текст"
+      type="http://www.w3.org/2001/XMLSchema#string"/>
+  <attributes xsi:type="form:FormAttribute" name="СтрокаСтатуса" title="Статус"
+      type="http://www.w3.org/2001/XMLSchema#string"/>
+  <commands xsi:type="form:FormCommand" name="Выполнить" title="Выполнить (F5)"
+      action="Выполнить"/>
+  <commands xsi:type="form:FormCommand" name="Очистить" title="Очистить"
+      action="Очистить"/>
+  <commands xsi:type="form:FormCommand" name="РедактироватьПараметры" title="Параметры"
+      action="РедактироватьПараметры"/>
+  <commands xsi:type="form:FormCommand" name="КонструкторЗапроса" title="Конструктор"
+      action="КонструкторЗапроса"/>
+</form:Form>
