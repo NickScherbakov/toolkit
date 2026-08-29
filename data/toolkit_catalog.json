@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "repository": "NickScherbakov/toolkit",
+    "source_branch": "master",
+    "catalog_version": 1,
+    "notes": [
+      "Публичный репозиторий содержит документацию и материалы обратной связи.",
+      "Исходный код продукта Infostart Toolkit в репозитории отсутствует."
+    ]
+  },
+  "tools": [
+    {
+      "slug": "query-console",
+      "name": "Консоль запросов",
+      "category": "developer-console",
+      "documentation_url": null,
+      "video_url": "https://rutube.ru/video/41fd85237a895e7e4fb595eea763360f/",
+      "access_role": null
+    },
+    {
+      "slug": "dcs-console",
+      "name": "Консоль СКД",
+      "category": "developer-console",
+      "documentation_url": "https://infostart.ru/1c/articles/2403609",
+      "video_url": null,
+      "access_role": null
+    },
+    {
+      "slug": "code-console",
+      "name": "Консоль кода",
+      "category": "developer-console",
+      "documentation_url": "https://infostart.ru/1c/articles/2403609/",
+      "video_url": "https://rutube.ru/video/dd9aa819bdd141c6eb5afcae18f0e61f/",
+      "access_role": "Infostart Toolkit (Консоль кода)"
+    },
+    {
+      "slug": "object-editor",
+      "name": "Редактор объекта",
+      "category": "editor",
+      "documentation_url": "https://infostart.ru/1c/articles/1858275/",
+      "video_url": "https://rutube.ru/video/d7f54638b05cbfe07c64357c3be4cc2c/",
+      "access_role": "Infostart Toolkit (Редактор объекта)"
+    },
+    {
+      "slug": "metadata",
+      "name": "Метаданные",
+      "category": "analysis",
+      "documentation_url": "https://infostart.ru/1c/articles/1824139/",
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Метаданные)"
+    },
+    {
+      "slug": "all-functions",
+      "name": "Все функции",
+      "category": "navigation",
+      "documentation_url": "https://infostart.ru/1c/articles/1626559/",
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Все функции)"
+    },
+    {
+      "slug": "global-menu",
+      "name": "Глобальное меню",
+      "category": "navigation",
+      "documentation_url": "https://infostart.ru/1c/articles/1605809/",
+      "video_url": null,
+      "access_role": null
+    },
+    {
+      "slug": "link-search-and-replace",
+      "name": "Поиск и замена ссылок",
+      "category": "analysis",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Поиск и замена ссылок)"
+    },
+    {
+      "slug": "reference-search",
+      "name": "Поиск ссылок",
+      "category": "analysis",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Поиск ссылок на объект)"
+    },
+    {
+      "slug": "rights-analysis",
+      "name": "Анализ прав доступа",
+      "category": "analysis",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Анализ прав доступа)"
+    },
+    {
+      "slug": "object-compare",
+      "name": "Сравнение объектов",
+      "category": "analysis",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Сравнение объектов)"
+    },
+    {
+      "slug": "event-subscriptions",
+      "name": "Подписки на события",
+      "category": "analysis",
+      "documentation_url": "https://infostart.ru/1c/articles/1571266/",
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Подписки на события)"
+    },
+    {
+      "slug": "users",
+      "name": "Пользователи",
+      "category": "administration",
+      "documentation_url": null,
+      "video_url": "https://rutube.ru/video/cbd76f587621658d63e3e1627f672504/",
+      "access_role": "Infostart Toolkit (Пользователи)"
+    },
+    {
+      "slug": "user-settings",
+      "name": "Настройки пользователей",
+      "category": "administration",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": null
+    },
+    {
+      "slug": "license-monitor",
+      "name": "Монитор лицензий",
+      "category": "administration",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Монитор лицензий)"
+    },
+    {
+      "slug": "scheduled-jobs",
+      "name": "Регламентные и фоновые задания",
+      "category": "administration",
+      "documentation_url": "https://infostart.ru/1c/articles/2409212",
+      "video_url": "https://rutube.ru/video/2a26254320b66bb3d8e8e1c8077203fb/",
+      "access_role": "Infostart Toolkit (Регламентные и фоновые задания)"
+    },
+    {
+      "slug": "data-import-export",
+      "name": "Выгрузка/Загрузка данных",
+      "category": "data",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": null
+    },
+    {
+      "slug": "maintenance",
+      "name": "Обслуживание (служебные)",
+      "category": "administration",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Обслуживание (служебные))"
+    },
+    {
+      "slug": "session-parameter-editor",
+      "name": "Редактор параметров сеанса",
+      "category": "editor",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Редактор параметров сеанса)"
+    },
+    {
+      "slug": "event-log",
+      "name": "Журнал регистрации",
+      "category": "analysis",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Журнал регистрации)"
+    },
+    {
+      "slug": "form-manager",
+      "name": "Менеджер формы",
+      "category": "analysis",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Менеджер формы)"
+    },
+    {
+      "slug": "storage-structure-search",
+      "name": "Поиск по структуре хранения",
+      "category": "analysis",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Поиск по структуре хранения)"
+    },
+    {
+      "slug": "constants-editor",
+      "name": "Редактор констант",
+      "category": "editor",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Редактор констант)"
+    },
+    {
+      "slug": "independent-register-record-editor",
+      "name": "Редактор записи независимого регистра сведений",
+      "category": "editor",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": "Infostart Toolkit (Редактор записи независимого регистра сведений)"
+    },
+    {
+      "slug": "dynamic-list",
+      "name": "Динамический список (универсальная форма списка/выбора)",
+      "category": "ui",
+      "documentation_url": null,
+      "video_url": null,
+      "access_role": null
+    }
+  ],
+  "improvements": [
+    {
+      "id": "catalog-as-source-of-truth",
+      "priority": "high",
+      "title": "Сделать каталог инструментов единственным поддерживаемым источником истины",
+      "rationale": "Сегодня перечень инструментов и ссылки размазаны по README, вспомогательным markdown и бинарной документации. Машиночитаемый каталог снижает вероятность расхождений и упрощает автоматические проверки."
+    },
+    {
+      "id": "document-source-code-gap",
+      "priority": "high",
+      "title": "Явно зафиксировать отсутствие публичных исходников как блокер для продуктовых изменений",
+      "rationale": "README уже сообщает, что исходники не хранятся в репозитории. Эту проблему нужно поднимать как критический блокер, чтобы не обещать недоступную реализацию в публичном PR."
+    },
+    {
+      "id": "ci-validation",
+      "priority": "high",
+      "title": "Автоматизировать проверку каталога и документации в CI",
+      "rationale": "В репозитории отсутствуют штатные проверки. Базовая валидация структуры и тестов предотвращает регрессии в ссылках, ролях и описаниях."
+    },
+    {
+      "id": "issue-intake",
+      "priority": "medium",
+      "title": "Улучшить шаблоны bug/feature issues полями приоритета, риска и артефактов",
+      "rationale": "Сейчас шаблоны не собирают severity, ожидаемые артефакты и влияние на пользователей, что усложняет triage и коммуникацию."
+    },
+    {
+      "id": "upgrade-and-migration-docs",
+      "priority": "medium",
+      "title": "Выделить обновление и миграцию в отдельные документы",
+      "rationale": "Инструкции по установке и обновлению разбросаны между README, docx/pdf и auto_install.md. Отдельный migration pack делает поддержку предсказуемой."
+    },
+    {
+      "id": "security-observability-docs",
+      "priority": "medium",
+      "title": "Отдельно описать зависимости, риски безопасности и требования к артефактам",
+      "rationale": "Документ с библиотеками и сервисами очень краткий; для поддерживаемости полезно фиксировать внешние интеграции, риски и срок хранения артефактов."
+    },
+    {
+      "id": "binary-doc-replacement",
+      "priority": "low",
+      "title": "Постепенно заменять бинарную документацию markdown-версиями",
+      "rationale": "Docx/pdf плохо поддаются ревью, diff и автоматическим проверкам. Markdown-аналоги проще поддерживать в PR-потоке."
+    }
+  ],
+  "critical_blockers": [
+    {
+      "id": "private-product-source",
+      "title": "Публичный репозиторий не содержит исходный код продукта",
+      "severity": "critical",
+      "rationale": "Невозможно реализовать или протестировать продуктовые изменения Toolkit без доступа к закрытым исходникам, тестам и внутренним CI."
+    }
+  ]
+}
