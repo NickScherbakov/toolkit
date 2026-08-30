@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+    uuid="b1000001-0000-0000-0000-000000000001">
+  <name>Тулкит_Общий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Toolkit: Общий</value>
+  </synonym>
+  <global>false</global>
+  <clientManagedApplication>false</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>false</clientOrdinaryApplication>
+  <serverCall>false</serverCall>
+  <privileged>false</privileged>
+</mdclass:CommonModule>
