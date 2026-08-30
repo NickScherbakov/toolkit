@@ -1,35 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Extension xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
     xmlns:core="http://g5.1c.ru/v8/dt/metadata/core"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     uuid="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
   <name>1CDeveloperToolkit</name>
+  <namePrefix>Тулкит_</namePrefix>
   <synonym>
     <key>ru</key>
     <value>1C Developer Toolkit</value>
   </synonym>
   <comment>Открытый набор инструментов для разработчиков 1С:Предприятие. Лицензия MIT.</comment>
-  <containedObjects xsi:type="mdclass:CommonModule">CommonModules/ТулкитОбщий</containedObjects>
-  <containedObjects xsi:type="mdclass:CommonModule">CommonModules/ТулкитОбщийКлиент</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/КонсольЗапросов</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/КонсольКода</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/РедакторОбъекта</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Метаданные</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ГлобальноеМеню</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ВсеФункции</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/АнализПравДоступа</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Пользователи</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/РегламентныеЗадания</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ЖурналРегистрации</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ПодпискиНаСобытия</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ПоискЗаменаСсылок</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/СравнениеОбъектов</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/МониторЛицензий</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/КонсольСКД</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/МенеджерФормы</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ВыгрузкаЗагрузкаДанных</containedObjects>
-  <containedObjects xsi:type="mdclass:Role">Roles/ТулкитПолныйДоступ</containedObjects>
-  <containedObjects xsi:type="mdclass:Role">Roles/ТулкитБазовыйДоступ</containedObjects>
+  <containedObjects xsi:type="mdclass:CommonModule">CommonModules/Тулкит_Общий</containedObjects>
+  <containedObjects xsi:type="mdclass:CommonModule">CommonModules/Тулкит_ОбщийКлиент</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_КонсольЗапросов</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_КонсольКода</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_РедакторОбъекта</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_Метаданные</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_ГлобальноеМеню</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_ВсеФункции</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_АнализПравДоступа</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_Пользователи</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_РегламентныеЗадания</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_ЖурналРегистрации</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_ПодпискиНаСобытия</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_ПоискЗаменаСсылок</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_СравнениеОбъектов</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_МониторЛицензий</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_КонсольСКД</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_МенеджерФормы</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Тулкит_ВыгрузкаЗагрузкаДанных</containedObjects>
+  <containedObjects xsi:type="mdclass:Role">Roles/Тулкит_ПолныйДоступ</containedObjects>
+  <containedObjects xsi:type="mdclass:Role">Roles/Тулкит_БазовыйДоступ</containedObjects>
   <version>0.1.0</version>
   <usePurposes>PersonalComputerApplication</usePurposes>
   <usePurposes>MobileApplication</usePurposes>

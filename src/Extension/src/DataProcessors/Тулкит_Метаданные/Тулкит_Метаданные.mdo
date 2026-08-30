@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+    uuid="c1000004-0000-0000-0000-000000000000">
+  <name>Тулкит_Метаданные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метаданные</value>
+  </synonym>
+  <comment>Дерево конфигурации, поиск, структура хранения</comment>
+  <forms>Forms/ОсновнаяФорма</forms>
+</mdclass:DataProcessor>

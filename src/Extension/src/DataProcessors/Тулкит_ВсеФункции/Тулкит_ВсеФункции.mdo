@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+    uuid="c2000002-0000-0000-0000-000000000000">
+  <name>Тулкит_ВсеФункции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все функции</value>
+  </synonym>
+  <comment>Расширенный навигатор объектов конфигурации</comment>
+  <forms>Forms/ОсновнаяФорма</forms>
+</mdclass:DataProcessor>
