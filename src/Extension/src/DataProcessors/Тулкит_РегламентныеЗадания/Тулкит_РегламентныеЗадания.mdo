@@ -7,5 +7,5 @@
     <value>Регламентные задания</value>
   </synonym>
   <comment>Управление регламентными и фоновыми заданиями</comment>
-  <forms>Forms/ОсновнаяФорма</forms>
+  <forms>Forms/ОсновнаяФорма</forms>`n  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

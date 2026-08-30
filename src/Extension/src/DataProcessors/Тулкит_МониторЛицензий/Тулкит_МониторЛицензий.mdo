@@ -7,5 +7,5 @@
     <value>Монитор лицензий</value>
   </synonym>
   <comment>Активные лицензии и сеансы</comment>
-  <forms>Forms/ОсновнаяФорма</forms>
+  <forms>Forms/ОсновнаяФорма</forms>`n  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

@@ -7,5 +7,5 @@
     <value>Выгрузка/Загрузка данных</value>
   </synonym>
   <comment>XML-выгрузка и загрузка объектов</comment>
-  <forms>Forms/ОсновнаяФорма</forms>
+  <forms>Forms/ОсновнаяФорма</forms>`n  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

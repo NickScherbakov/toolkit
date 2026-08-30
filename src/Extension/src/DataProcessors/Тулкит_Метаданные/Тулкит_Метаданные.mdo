@@ -7,5 +7,5 @@
     <value>Метаданные</value>
   </synonym>
   <comment>Дерево конфигурации, поиск, структура хранения</comment>
-  <forms>Forms/ОсновнаяФорма</forms>
+  <forms>Forms/ОсновнаяФорма</forms>`n  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

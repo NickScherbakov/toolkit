@@ -7,5 +7,5 @@
     <value>Менеджер формы</value>
   </synonym>
   <comment>Просмотр элементов формы в runtime</comment>
-  <forms>Forms/ОсновнаяФорма</forms>
+  <forms>Forms/ОсновнаяФорма</forms>`n  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

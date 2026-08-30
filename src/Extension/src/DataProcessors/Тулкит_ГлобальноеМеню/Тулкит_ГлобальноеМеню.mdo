@@ -7,5 +7,5 @@
     <value>Глобальное меню</value>
   </synonym>
   <comment>Единая точка входа для всех инструментов Toolkit</comment>
-  <forms>Forms/ОсновнаяФорма</forms>
+  <forms>Forms/ОсновнаяФорма</forms>`n  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>
