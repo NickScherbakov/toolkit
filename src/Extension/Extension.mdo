@@ -20,7 +20,7 @@
   <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/АнализПравДоступа</containedObjects>
   <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/Пользователи</containedObjects>
   <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/РегламентныеЗадания</containedObjects>
-  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ЖурналРегистрации</containedObjects>
+  <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ТулкитЖурналРегистрации</containedObjects>
   <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ПодпискиНаСобытия</containedObjects>
   <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/ПоискЗаменаСсылок</containedObjects>
   <containedObjects xsi:type="mdclass:DataProcessor">DataProcessors/СравнениеОбъектов</containedObjects>
