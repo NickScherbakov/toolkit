@@ -8,4 +8,5 @@
   </synonym>
   <comment>Управление регламентными и фоновыми заданиями</comment>
   <forms>Forms/ОсновнаяФорма</forms>
+  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

@@ -8,4 +8,5 @@
   </synonym>
   <comment>Расширенный навигатор объектов конфигурации</comment>
   <forms>Forms/ОсновнаяФорма</forms>
+  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

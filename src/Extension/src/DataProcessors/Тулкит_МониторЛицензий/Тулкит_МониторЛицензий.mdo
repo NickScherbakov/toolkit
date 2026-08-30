@@ -8,4 +8,5 @@
   </synonym>
   <comment>Активные лицензии и сеансы</comment>
   <forms>Forms/ОсновнаяФорма</forms>
+  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

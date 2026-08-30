@@ -8,4 +8,5 @@
   </synonym>
   <comment>Дерево конфигурации, поиск, структура хранения</comment>
   <forms>Forms/ОсновнаяФорма</forms>
+  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

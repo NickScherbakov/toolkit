@@ -8,4 +8,5 @@
   </synonym>
   <comment>Конструктор и отладчик схем компоновки данных</comment>
   <forms>Forms/ОсновнаяФорма</forms>
+  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

@@ -8,4 +8,5 @@
   </synonym>
   <comment>Фильтрация и просмотр журнала</comment>
   <forms>Forms/ОсновнаяФорма</forms>
+  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>

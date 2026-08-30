@@ -8,4 +8,5 @@
   </synonym>
   <comment>Редактор и отладчик запросов 1С с подсветкой синтаксиса Monaco Editor</comment>
   <forms>Forms/ОсновнаяФорма</forms>
+  <defaultForm>Forms/ОсновнаяФорма</defaultForm>
 </mdclass:DataProcessor>
