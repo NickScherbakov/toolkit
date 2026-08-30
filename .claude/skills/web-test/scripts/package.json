@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "description": "Browser automation engine for 1C web client (Playwright)",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "playwright": "^1.50.0"
   }
