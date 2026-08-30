@@ -1,7 +1,7 @@
 ---
 name: subsystem-validate
 description: Валидация подсистемы 1С. Используй после создания или модификации подсистемы для проверки корректности
-argument-hint: <SubsystemPath> [-Detailed] [-MaxErrors 30]
+argument-hint: <SubsystemPath> [-Detailed] [-MaxErrors 30] [-OutFile <файл>]
 allowed-tools:
   - Bash
   - Read
